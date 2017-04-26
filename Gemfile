@@ -38,6 +38,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   # A library for generating fake data such as names, addresses, and phone numbers.
   gem 'faker'
+  # rubocop
+  gem 'rubocop'
 end
 
 group :development do
