@@ -31,6 +31,12 @@ group :development, :test do
   # RSpec for Rails-3+ http://relishapp.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 3.5'
   # Strategies for cleaning databases in Ruby. Can be used to ensure a clean state for testing. http://rubygems.org/gems/database_cle…
+end
+
+# rubocop
+gem 'rubocop'
+
+group :test do
   gem 'database_cleaner'
   #  Collection of testing matchers extracted from Shoulda http://matchers.shoulda.io
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
@@ -38,8 +44,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   # A library for generating fake data such as names, addresses, and phone numbers.
   gem 'faker'
-  # rubocop
-  gem 'rubocop'
 end
 
 group :development do
